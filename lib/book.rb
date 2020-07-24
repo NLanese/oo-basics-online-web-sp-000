@@ -13,7 +13,7 @@ class Book
   attr_reader :page_count
   attr_writer :page_count
   def turn_page
-    @page_count += 1
+    @page_count = @page_count + 1
   end
 
 end
