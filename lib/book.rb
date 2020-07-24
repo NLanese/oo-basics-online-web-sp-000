@@ -11,9 +11,9 @@ class Book
   attr_reader :genre
   attr_writer :genre
   attr_reader :page_count
-  attr_writer :page_count
+  attr_writer :page_coun
   def turn_page
-    @page_count = @page_count + 1
+    puts "Flipping the page...wow, you read fast!"
   end
 
 end
