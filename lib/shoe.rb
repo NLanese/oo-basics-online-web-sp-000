@@ -14,7 +14,7 @@ class Shoe
   attr_writer :condition
   def cobble
     @condition = "new"
-    puts "The shoe has been repaired!"
+    puts "Your shoe is good as new!"
   end
 end
 
