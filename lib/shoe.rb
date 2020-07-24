@@ -1,4 +1,4 @@
-class Shoe 
+class Shoe
   def initialize(brandInput)
     @brand = brandInput
   end
@@ -18,5 +18,5 @@ class Shoe
   end
 end
 
-  
+
   
